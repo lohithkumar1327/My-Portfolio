@@ -1,0 +1,127 @@
+*{
+    font-family: monospace;
+
+}
+
+body{
+    margin: 0;
+    background-color: rgb(167, 59, 59);
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    
+    
+    
+}
+
+header{
+    background-color: rgb(161, 7, 7);
+    height: 100vh;
+    color: rgb(255, 221, 0);
+    
+}
+h1{
+    color:rgb(255, 221, 0) ;
+    background-color: rgb(161, 7, 7);
+    font-size: 50px;
+
+}
+header h1{
+    margin: 0;
+}
+.button{
+    height: 40px;
+    width: 80px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.button:hover{
+    color: aliceblue;
+    background-color: rgb(255, 183, 0);
+}
+img{
+    height: 200px;
+    
+    
+}
+main{
+    padding: 10px;
+}
+
+section{
+    height: auto;
+    border: 1px solid grey;
+    border-radius: 5px;
+    margin-bottom: 5px;
+    padding: 20px;
+}
+input[type="radio"],
+input[type="checkbox"] {
+  transform: scale(1.2);
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+input[type="text"], input[type="email"] {
+  width: 140px;
+  padding: 3px;
+}
+.submit{
+    height: 20px;
+    width: 70px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    
+    
+    
+    
+
+}
+.submit:hover{
+    color: #b71c1c;
+    background-color: rgb(255, 183, 0);
+
+}
+input{
+    border-radius: auto;
+    border: 1px solid grey;
+    height: 25px;
+}
+element.style{
+    height: 124px;
+    background-color: black;
+    color: grey;
+}
+.fixedButton{
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    height: 40px;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    color: black;
+    background-color: yellow;
+}
+footer{
+     height: 50px;
+    background-color: black;
+    color: grey;
+
+}
+#feedback2{
+    background-color: #fef8e7;
+  padding: 30px;
+  border-radius: 10px;
+  margin: 20px auto;
+  max-width: 500px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+#feedback h2 {
+  color: #b71c1c;
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+
